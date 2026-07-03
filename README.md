@@ -51,6 +51,24 @@ Users can modify values within the rendering module to adjust the output aesthet
 *   **Vertical Alignment:** Adjust `MarginV` to move subtitles up or down (default 180).
 *   **Encoding Quality:** Adjust the CRF (Constant Rate Factor) in the FFmpeg call. A value of 18 provides near-lossless quality.
 
+## How to use : 
+### Cell Layout :
+*   **Cell1.bash and Cell1.py** : In the same code cell in a Google Colab notebook
+*   **Cell2.py** : Put in a separate code cell
+*   **Cell3.py** : Put in a separate code cell
+*   **Cell4.py** : Put in a separate code cell 
+
+### Execution Order : 
+*   **Cell 1** : Execute first (Especially when loading a new env)
+*   **Cell 2** : Execute second
+*   **Cell 3** : Execute third
+*   **Cell 4** : Execute fourth
+
+
 ## Disclaimer
 
 This software is provided for automated content production. Users are responsible for ensuring compliance with the Terms of Service of content platforms and copyright regulations for the source material processed. Colab storage is ephemeral; all data is purged upon session termination.
+
+
+
+
