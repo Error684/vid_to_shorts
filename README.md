@@ -6,9 +6,7 @@ This project provides a high-performance Python pipeline designed for Google Col
 ## Technical Specifications
 
 ### Core Engine
-    Hardware:
-*   **Inference Hardware:** NVIDIA T4 (16GB VRAM).
-*   
+*   **Type of Colab environnment:** NVIDIA T4 (16GB VRAM).
 *   **Transcription:** Faster-Whisper-Large-V3-Turbo (CTranslate2).
 *   **Curation Engine:** Google Gemini 2.5 Flash API.
 *   **Vision Model:** YOLOv8 Medium (FP16).
